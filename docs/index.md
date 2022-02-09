@@ -18,4 +18,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 # Reference
 
-::: rdb_package_info.modules.entities.package
+::: rdb_package_info.modules.entities.package.Package
