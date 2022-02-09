@@ -3,8 +3,8 @@ import attr
 from typing import Dict, Tuple, Union
 from typing_extensions import TypeAlias
 
-from modules.entities.architecture import Architecture
-from modules.utils import parse_package_version
+from rdb_package_info.modules.entities.architecture import Architecture
+from rdb_package_info.modules.utils import parse_package_version
 
 VersionTuple: TypeAlias = Tuple[Union[str, int], ...]
 

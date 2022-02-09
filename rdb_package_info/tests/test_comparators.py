@@ -1,6 +1,6 @@
-from modules.entities.architecture import Architectures
-from modules.entities.comparison import Comparison
-from modules.comparator import ExistsOnlyComparator, BranchPackageVersionComparator
+from rdb_package_info.modules.entities.architecture import Architectures
+from rdb_package_info.modules.entities.comparison import Comparison
+from rdb_package_info.modules.comparator import ExistsOnlyComparator, BranchPackageVersionComparator
 
 
 class TestComparators:

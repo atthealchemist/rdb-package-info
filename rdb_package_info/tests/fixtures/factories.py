@@ -1,7 +1,7 @@
 import pytest
 
-from modules.entities.package import Package
-from modules.utils import parse_package_version
+from rdb_package_info.modules.entities.package import Package
+from rdb_package_info.modules.utils import parse_package_version
 
 
 @pytest.fixture

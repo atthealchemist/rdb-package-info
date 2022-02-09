@@ -1,4 +1,4 @@
 pytest_plugins = [
-    "tests.fixtures.common",
-    "tests.fixtures.factories"
+    "rdb_package_info.tests.fixtures.common",
+    "rdb_package_info.tests.fixtures.factories"
 ]

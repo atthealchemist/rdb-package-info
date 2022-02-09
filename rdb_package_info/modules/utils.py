@@ -3,7 +3,7 @@ import requests
 from typing import Dict, List, Optional, Tuple, Union
 from string import ascii_letters, punctuation
 
-from modules.constants import API_BRANCHES_LIST_URL
+from rdb_package_info.modules.constants import API_BRANCHES_LIST_URL
 
 
 def parse_package_version(version: str) -> Tuple[Union[int, str], ...]:

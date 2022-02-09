@@ -2,8 +2,8 @@ import itertools
 
 from abc import ABCMeta, abstractmethod
 from typing import Dict, Sequence, Tuple
-from modules.entities.comparison import Comparison
-from modules.entities.package import Package, VersionTuple
+from rdb_package_info.modules.entities.comparison import Comparison
+from rdb_package_info.modules.entities.package import Package, VersionTuple
 
 
 class Comparator(metaclass=ABCMeta):

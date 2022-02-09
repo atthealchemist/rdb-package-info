@@ -4,9 +4,9 @@ import ijson
 from urllib.request import urlopen
 
 from typing import Iterable, List, Optional
-from modules.constants import API_EXPORT_PACKAGES_URL
-from modules.entities.package import Package
-from modules.utils import check_existing_branches
+from rdb_package_info.modules.constants import API_EXPORT_PACKAGES_URL
+from rdb_package_info.modules.entities.package import Package
+from rdb_package_info.modules.utils import check_existing_branches
 
 
 class PackageFetcher:

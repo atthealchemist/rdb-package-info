@@ -1,4 +1,4 @@
-from modules.utils import parse_package_version
+from rdb_package_info.modules.utils import parse_package_version
 
 
 class TestUtils:

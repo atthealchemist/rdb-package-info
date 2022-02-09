@@ -1,7 +1,7 @@
 import attr
 
 from typing import Dict, Sequence, Union
-from modules.entities.package import Package
+from rdb_package_info.modules.entities.package import Package
 
 
 @attr.s(auto_attribs=True)

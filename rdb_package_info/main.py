@@ -1,4 +1,4 @@
-from modules.commands.compare import CompareBranchesCommand
+from rdb_package_info.modules.commands.compare import CompareBranchesCommand
 
 
 def main():

@@ -1,11 +1,11 @@
 import json
 from typing import Dict, List, Sequence
-from modules.commands.base import BaseCommand
-from modules.comparator import (
+from rdb_package_info.modules.commands.base import BaseCommand
+from rdb_package_info.modules.comparator import (
     ExistsOnlyComparator, BranchPackageVersionComparator
 )
 
-from modules.fetcher import PackageFetcher
+from rdb_package_info.modules.fetcher import PackageFetcher
 
 
 class CompareBranchesCommand(BaseCommand):
