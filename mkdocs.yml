@@ -27,3 +27,9 @@ plugins:
 
 nav:
   - "My page": index.md
+
+handlers:
+  python:
+    setup_commands:
+      - import sys
+      - sys.path.append("rdb_package_info")
